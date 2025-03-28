@@ -24,8 +24,37 @@ namespace Astronomical_Processing
             InitializeComponent();
         }
 
+        // Global Variables
+        // Declare number of data entries to be created
+        static int maxSize = 24;
+        // Array of random integers
+        int[] myArray = new int[maxSize];
+
         // Method for Get Data on button click
         private void buttonGetData_Click(object sender, EventArgs e)
+        {
+            // Create a random number
+            Random rand = new Random();
+            // Fill array with random numbers
+            for (int i = 0; i < maxSize; i++)
+            {
+                // Random number from 20 to 90
+                myArray[i] = rand.Next(20, 91); // 91 is exclusive, so this gives a range from 20 to 90
+            }
+
+            // Display array in ListBox
+            // Clear ListBox for new data
+            listBoxDisplay.Items.Clear();
+            for (int i = 0; i < maxSize; i++)
+            {
+                listBoxDisplay.Items.Add(myArray[i]);
+            }
+        }
+
+        /* Bubble Sort.
+         */
+        // Method to perform Bubble Sort
+        private void buttonSort_Click(object sender, EventArgs e)
         {
 
         }
@@ -35,9 +64,17 @@ namespace Astronomical_Processing
          * Otherwise it jumps to either left or right sub-list and does the same process again until
          * either the item is found or it exceeds the range.
          */
+        // Method to perform Binary Search
         private void buttonSearch_Click(object sender, EventArgs e)
         {
 
         }
-    }
-}
+
+        // Method to Quit and close the program
+        private void buttonQuit_Click(object sender, EventArgs e)
+        {
+            // This closes the current form
+            this.Close();
+        }
+    } // end Form1
+} // end namespace
