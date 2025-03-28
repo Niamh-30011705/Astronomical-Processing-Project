@@ -44,9 +44,10 @@
             // buttonQuit
             // 
             this.buttonQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonQuit.Location = new System.Drawing.Point(172, 12);
+            this.buttonQuit.Location = new System.Drawing.Point(258, 18);
+            this.buttonQuit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonQuit.Name = "buttonQuit";
-            this.buttonQuit.Size = new System.Drawing.Size(78, 45);
+            this.buttonQuit.Size = new System.Drawing.Size(117, 69);
             this.buttonQuit.TabIndex = 0;
             this.buttonQuit.Text = "Quit";
             this.buttonQuit.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@
             // buttonGetData
             // 
             this.buttonGetData.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonGetData.Location = new System.Drawing.Point(256, 12);
+            this.buttonGetData.Location = new System.Drawing.Point(384, 18);
+            this.buttonGetData.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonGetData.Name = "buttonGetData";
-            this.buttonGetData.Size = new System.Drawing.Size(78, 45);
+            this.buttonGetData.Size = new System.Drawing.Size(117, 69);
             this.buttonGetData.TabIndex = 1;
             this.buttonGetData.Text = "Get Data";
             this.buttonGetData.UseVisualStyleBackColor = true;
@@ -66,9 +68,10 @@
             // buttonSort
             // 
             this.buttonSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonSort.Location = new System.Drawing.Point(340, 12);
+            this.buttonSort.Location = new System.Drawing.Point(510, 18);
+            this.buttonSort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSort.Name = "buttonSort";
-            this.buttonSort.Size = new System.Drawing.Size(78, 45);
+            this.buttonSort.Size = new System.Drawing.Size(117, 69);
             this.buttonSort.TabIndex = 2;
             this.buttonSort.Text = "Sort Data";
             this.buttonSort.UseVisualStyleBackColor = true;
@@ -77,9 +80,10 @@
             // buttonSearch
             // 
             this.buttonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonSearch.Location = new System.Drawing.Point(356, 63);
+            this.buttonSearch.Location = new System.Drawing.Point(534, 97);
+            this.buttonSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(62, 45);
+            this.buttonSearch.Size = new System.Drawing.Size(93, 69);
             this.buttonSearch.TabIndex = 3;
             this.buttonSearch.Text = "Search";
             this.buttonSearch.UseVisualStyleBackColor = true;
@@ -88,66 +92,75 @@
             // buttonEdit
             // 
             this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.buttonEdit.Location = new System.Drawing.Point(356, 114);
+            this.buttonEdit.Location = new System.Drawing.Point(534, 175);
+            this.buttonEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(62, 45);
+            this.buttonEdit.Size = new System.Drawing.Size(93, 69);
             this.buttonEdit.TabIndex = 4;
             this.buttonEdit.Text = "Edit";
             this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(173, 79);
+            this.label1.Location = new System.Drawing.Point(260, 122);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.Size = new System.Drawing.Size(99, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "Search Data";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(173, 130);
+            this.label2.Location = new System.Drawing.Point(260, 200);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 13);
+            this.label2.Size = new System.Drawing.Size(76, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Edit Data";
             // 
             // inputSearch
             // 
-            this.inputSearch.Location = new System.Drawing.Point(246, 76);
+            this.inputSearch.Location = new System.Drawing.Point(369, 117);
+            this.inputSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.inputSearch.Name = "inputSearch";
-            this.inputSearch.Size = new System.Drawing.Size(104, 20);
+            this.inputSearch.Size = new System.Drawing.Size(154, 26);
             this.inputSearch.TabIndex = 7;
             // 
             // inputEdit
             // 
-            this.inputEdit.Location = new System.Drawing.Point(246, 127);
+            this.inputEdit.Location = new System.Drawing.Point(369, 195);
+            this.inputEdit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.inputEdit.Name = "inputEdit";
-            this.inputEdit.Size = new System.Drawing.Size(104, 20);
+            this.inputEdit.Size = new System.Drawing.Size(154, 26);
             this.inputEdit.TabIndex = 8;
             // 
             // messageBox
             // 
-            this.messageBox.Location = new System.Drawing.Point(176, 165);
+            this.messageBox.Location = new System.Drawing.Point(264, 254);
+            this.messageBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.messageBox.Name = "messageBox";
             this.messageBox.ReadOnly = true;
-            this.messageBox.Size = new System.Drawing.Size(242, 20);
+            this.messageBox.Size = new System.Drawing.Size(361, 26);
             this.messageBox.TabIndex = 9;
             // 
             // listBoxDisplay
             // 
             this.listBoxDisplay.FormattingEnabled = true;
-            this.listBoxDisplay.Location = new System.Drawing.Point(12, 12);
+            this.listBoxDisplay.ItemHeight = 20;
+            this.listBoxDisplay.Location = new System.Drawing.Point(18, 18);
+            this.listBoxDisplay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBoxDisplay.Name = "listBoxDisplay";
-            this.listBoxDisplay.Size = new System.Drawing.Size(154, 316);
+            this.listBoxDisplay.Size = new System.Drawing.Size(229, 484);
             this.listBoxDisplay.TabIndex = 10;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 350);
+            this.ClientSize = new System.Drawing.Size(644, 538);
             this.Controls.Add(this.listBoxDisplay);
             this.Controls.Add(this.messageBox);
             this.Controls.Add(this.inputEdit);
@@ -159,6 +172,7 @@
             this.Controls.Add(this.buttonSort);
             this.Controls.Add(this.buttonGetData);
             this.Controls.Add(this.buttonQuit);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Astronomical Processing";
             this.ResumeLayout(false);
