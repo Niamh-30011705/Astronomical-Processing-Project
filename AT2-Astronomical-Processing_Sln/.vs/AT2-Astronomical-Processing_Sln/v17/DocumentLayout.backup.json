@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\niamh\\Documents\\GitHub\\AT2-Astronomical-Processing-Project\\AT2-Astronomical-Processing_Sln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CA8E076-EA78-4E87-84FC-A136F89205E4}|Astronomical Processing\\Astronomical Processing.csproj|c:\\users\\niamh\\documents\\github\\at2-astronomical-processing-project\\at2-astronomical-processing_sln\\astronomical processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7CA8E076-EA78-4E87-84FC-A136F89205E4}|Astronomical Processing\\Astronomical Processing.csproj|C:\\Users\\niamh\\Documents\\GitHub\\AT2-Astronomical-Processing-Project\\AT2-Astronomical-Processing_Sln\\astronomical processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7CA8E076-EA78-4E87-84FC-A136F89205E4}|Astronomical Processing\\Astronomical Processing.csproj|solutionrelative:astronomical processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CA8E076-EA78-4E87-84FC-A136F89205E4}|Astronomical Processing\\Astronomical Processing.csproj|C:\\Users\\niamh\\Documents\\GitHub\\AT2-Astronomical-Processing-Project\\AT2-Astronomical-Processing_Sln\\astronomical processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CA8E076-EA78-4E87-84FC-A136F89205E4}|Astronomical Processing\\Astronomical Processing.csproj|c:\\users\\niamh\\documents\\github\\at2-astronomical-processing-project\\at2-astronomical-processing_sln\\astronomical processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CA8E076-EA78-4E87-84FC-A136F89205E4}|Astronomical Processing\\Astronomical Processing.csproj|solutionrelative:astronomical processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Astronomical Processing\\Form1.cs",
               "ToolTip": "C:\\Users\\niamh\\Documents\\GitHub\\AT2-Astronomical-Processing-Project\\AT2-Astronomical-Processing_Sln\\Astronomical Processing\\Form1.cs",
               "RelativeToolTip": "Astronomical Processing\\Form1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAADwv0gAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwEgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T03:15:55.517Z",
               "EditorCaption": ""
