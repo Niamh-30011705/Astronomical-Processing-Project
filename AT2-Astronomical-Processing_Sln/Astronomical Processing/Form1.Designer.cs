@@ -141,9 +141,10 @@
             // 
             this.messageBox.Location = new System.Drawing.Point(264, 254);
             this.messageBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.messageBox.Multiline = true;
             this.messageBox.Name = "messageBox";
             this.messageBox.ReadOnly = true;
-            this.messageBox.Size = new System.Drawing.Size(361, 26);
+            this.messageBox.Size = new System.Drawing.Size(361, 87);
             this.messageBox.TabIndex = 9;
             // 
             // listBoxDisplay
@@ -155,6 +156,7 @@
             this.listBoxDisplay.Name = "listBoxDisplay";
             this.listBoxDisplay.Size = new System.Drawing.Size(229, 484);
             this.listBoxDisplay.TabIndex = 10;
+            this.listBoxDisplay.Click += new System.EventHandler(this.listBoxDisplay_Click);
             // 
             // Form1
             // 
